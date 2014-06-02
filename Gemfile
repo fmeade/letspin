@@ -44,6 +44,9 @@ gem 'devise'
 # Required for image upload
 gem 'paperclip', github: 'thoughtbot/paperclip'
 
+# for image store with heroku
+gem 'aws-sdk', '~> 1.20.0'
+
 # 
 gem 'will_paginate', '~> 3.0.5'
 gem 'will_paginate-bootstrap'
