@@ -4,7 +4,7 @@
 	<% if user_signed_in? %>
 
 	<p>
-		Do Something..
+		<%= link_to "Start Pinning", pins_path, class: "btn btn-primary btn-lg" %>
 	</p>
 
 	<% else %>

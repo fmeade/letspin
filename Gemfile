@@ -32,6 +32,9 @@ gem 'bootstrap-sass'
 # Devise needed to add users with sqlite3
 gem 'devise'
 
+# Required for image upload
+gem 'paperclip', github: 'thoughtbot/paperclip'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
