@@ -1,4 +1,4 @@
-pinteresting
-============
+letspin
+=======
 
-a rails application for tutorials on ruby on rails
+Letspin is my tutorial app for testing ideas in ruby on rails. The application is a basic redo of pinterest
