@@ -14,6 +14,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
 group :development, :test do
 	gem 'sqlite3'
+	gem 'foreman'
 end
 
 group :production do
@@ -50,6 +51,8 @@ gem 'aws-sdk', '~> 1.20.0'
 # 
 gem 'will_paginate', '~> 3.0.5'
 gem 'will_paginate-bootstrap'
+
+gem 'mailcatcher',    group: :development
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
