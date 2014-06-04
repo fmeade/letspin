@@ -16,6 +16,7 @@
 /tmp
 /public/system/*
 .env
+.idea
 Procfile
 
 
