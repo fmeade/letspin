@@ -88,9 +88,9 @@ Rails.application.configure do
     address: "smtp.gmail.com",
     port: 587,
     authentication: :plain,
-    user_name:      "noreply@letspin.com",
-    password:       "none",
-    openssl_verify_mode: 'none'
+    enable_starttls_auto: true,
+    user_name: ENV["GMAIL_USERNAME"],
+    password: ENV["GMAIL_PASSWORD"]
   }
 
   # 
