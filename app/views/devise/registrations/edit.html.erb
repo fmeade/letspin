@@ -27,18 +27,19 @@
       </div>
 
       <div class="form-group">
-        <%= f.label :new_password %> <i>(leave blank if you don't want to change it)</i>
-        <%= f.password_field :new_password, class: "form-control", :autocomplete => "off" %>
+        <%= f.label :password, "New Password" %>
+        <%= f.password_field :password, autocomplete: "off", class: "form-control" %>
       </div>
+
       <div class="form-group">
-        <%= f.label :new_password_conformation %>
-        <%= f.password_field :new_password_conformation, class: "form-control", :autocomplete => "off" %>
+        <%= f.label :password_confirmation, "New Password Confirmation" %>
+        <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control" %>
       </div>
 
       <div class="form-group">
         <%= f.submit "Update", class: "btn btn-primary" %>
       </div>
-    <% end %>
+      <% end %>
   </div>
   <div class="panel-footer">
     <h3>Cancel my account</h3>
