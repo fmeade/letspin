@@ -46,7 +46,7 @@ ActiveRecord::Schema.define(version: 20140609153051) do
     t.decimal  "phone"
     t.string   "nickname"
     t.date     "birthday"
-    t.boolean  "admin",                  default: true
+    t.boolean  "admin",                  default: false
   end
 
   add_index "users", ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true
