@@ -13,8 +13,9 @@ Devise.setup do |config|
   # with default "from" parameter.
   config.mailer_sender = "Let's Pin Dev Team"
 
+
   # Configure the class responsible to send e-mails.
-  # config.mailer = 'Devise::Mailer'
+  config.mailer = 'Devise::Mailer'
 
   # ==> ORM configuration
   # Load and configure the ORM. Supports :active_record (default) and
@@ -143,7 +144,11 @@ Devise.setup do |config|
   # Email regex used to validate email formats. It simply asserts that
   # one (and only one) @ exists in the given string. This is mainly
   # to give user feedback and not to assert the e-mail validity.
+<<<<<<< HEAD
    config.email_regexp = /\A[^@]+@[^@]+\z/
+=======
+  config.email_regexp = /\A[^@]+@[^@]+\z/
+>>>>>>> 659b1a84155990d4e98b2fa13f3ba1a756400fe6
 
   # ==> Configuration for :timeoutable
   # The time you want to timeout the user session without activity. After this

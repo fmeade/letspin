@@ -19,7 +19,6 @@
 .idea
 Procfile
 
-
 *.gem
 *.rbc
 /.config
